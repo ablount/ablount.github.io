@@ -1,0 +1,52 @@
+*{
+    font-family: Arial;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    color: white;
+}
+
+header{
+    background-color: #046ABF;
+    padding: 10px;
+}
+
+nav p{
+    display: inline;
+    font-family: Arial;
+}
+
+a{
+    color:white;
+}
+
+#whiteboxleft{
+    width:50%;
+    float:left;
+    padding-top: 50px;
+}
+
+#blueboxright{
+    float:left;
+    width: 50%;
+}
+
+#graybar{
+    background-color: #f3f3f3;
+    clear: both;
+    padding: 20px;
+}
+
+#photoleft{
+    float: left;
+    width: 50&;
+}
+
+#whiteboxright{
+    padding-top: 50px;
+    width: 50&;
+}
