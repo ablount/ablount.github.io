@@ -1,19 +1,36 @@
 img{
+    border: 10px dashed #d6f5f5;
     width:40%;
 }
 
 body{
     text-align: center;
+    background-color:lightgray;
 }
 
 ul{
     text-align: left;
 }
 
+li{
+    color:white;
+    font-family: Verdana;
+}
+
 h3{
     text-align: left;
+    background-color:darkgray;
+    color: #d6f5f5;
 }
 
 p{
     font-family: cursive;
+    color:white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3em;
+    color: dimgray;
 }
