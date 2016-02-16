@@ -9,9 +9,8 @@ img{
 }
 
 #rightbox{
-    padding-top: 115px;
+    padding-top: 10%;
     background-color: rgb(240,240,240);
-    height: 337px;
 }
 
 h1{
@@ -31,4 +30,10 @@ a{
     padding: 5px;
     text-decoration: none;
     border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#container{
+    background-color: rgb(240,240,240);
+    width: 100%;
 }
