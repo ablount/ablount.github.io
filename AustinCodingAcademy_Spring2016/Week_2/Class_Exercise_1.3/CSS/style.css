@@ -1,5 +1,9 @@
+*{
+    outline: black 1px solid;
+}
+
 div{
-    width: 500px;
+    width: 50%;
     float: left;
     text-align: center;
 }
@@ -9,9 +13,9 @@ img{
 }
 
 #rightbox{
-    padding-top: 100px;
+    padding-top: 115px;
     background-color: rgb(240,240,240);
-    height: 294px;
+    height: 337px;
 }
 
 h1{

@@ -1,0 +1,45 @@
+p{
+    color:orange;
+    font-size: 2rem;
+}
+
+span{
+    color:green;
+    text-decoration: line-through;
+}
+
+.highlight{
+    color:lightcoral;
+    font-weight: bold;
+    background-color: darkmagenta;
+}
+
+h4.highlight{
+    font-size: 3em;
+    color: white;
+}
+
+em.highlight{
+    text-decoration: overline;
+}
+
+strong.highlight{
+    text-decoration: underline;
+}
+
+#overview h4{
+    font-family:fantasy;
+}
+
+#ex4 aside h4{
+    color: purple;
+}
+
+#example > article > p{
+    color:aqua;
+}
+
+li:hover{
+    color: brown;
+    font-size: 2rem;
+}
