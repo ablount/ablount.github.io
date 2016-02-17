@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: #ccc;
+}
+body {
+    width: 600px;
+    background: #fff;
+    margin: 2em auto 2em;
+}
+div {
+    margin-bottom: 1em;
+    width: 100px;
+    height: 100px;
+}
+.element1 {
+    background: rgb(211, 206, 61);
+    float: left;
+}
+.element2 {
+    background: rgb(85, 66, 54);
+    float:right;
+}
+.element3 {
+    background: rgb(247,120,37);
+    float: right;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
