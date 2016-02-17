@@ -60,3 +60,12 @@ section a{
     text-decoration: none;
     margin-bottom: 5px;
 }
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
