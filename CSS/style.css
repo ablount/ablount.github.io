@@ -40,3 +40,13 @@ li{
     font-family: Verdana;
     font-size: .8em;
 }
+
+ul{
+    padding: 5px;
+    list-style: none;
+}
+
+a{
+    color: #d6f5f5;
+    text-decoration: none;
+}
