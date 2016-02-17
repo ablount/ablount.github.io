@@ -27,14 +27,14 @@ nav{
 }
 
 nav a{
-    padding: 5px;
+    margin-right: 15px;
     color:white;
     text-decoration: none;
 }
 
 main{
     margin: auto;
-    width: 80%
+    width: 80%;
 }
 
 section{
@@ -49,7 +49,7 @@ section{
 }
 
 #right{
-    background-color: #313131
+    background-color: #313131;
 }
 
 section a{
