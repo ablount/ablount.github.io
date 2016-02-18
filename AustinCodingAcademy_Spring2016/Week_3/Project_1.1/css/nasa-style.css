@@ -1,0 +1,63 @@
+body{
+    font-family: Helvetica;
+}
+
+header{
+    height: 450px;
+    width: 850px;
+    background-image: url('../img/nasa-background.jpg');
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    color: white;
+    padding-top: 20%;
+    font-size: 4.5em;    
+}
+
+main{
+    background-color: #e6e6e6;
+    width: 850px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial;
+}
+
+section{
+    width: 220px;
+    height: 324px;
+    float: left;
+    padding: 25px;
+    line-height: 50%;
+}
+
+section:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+section p{
+    color: #626262;
+}
+
+section a{
+    background-color:#4c4c4c;
+    color:white;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+}
+
+textarea{
+    resize: none;
+    border: none;
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
