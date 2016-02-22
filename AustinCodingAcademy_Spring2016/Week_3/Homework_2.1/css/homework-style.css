@@ -8,6 +8,7 @@ body{
 p{
     color: #8b8b8b;
     font-size: .75em;
+    line-height: 1.5;
 }
 
 h1{
@@ -96,6 +97,10 @@ a{
 
 .border{
     border-right: 1px #F7F5F5 solid;
+}
+
+div.right h2{
+    margin-top: -2px;
 }
 
 .clearthatshit:after {
