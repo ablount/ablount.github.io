@@ -1,6 +1,4 @@
-*{
 
-}
 
 body{
     margin: auto;
@@ -51,17 +49,14 @@ section{
 
 section.left{
     width: 330px;
-    height: 300px;
+    height: 280px;
     background-color: #F7F5F5;
-}
-
-section.left div{
     padding: 10px;
 }
 
 .right{
     padding: 10px;
-    width: 295px;
+    width: 300px;
     height: 70px;
     margin-left: 20px;
 }
@@ -79,7 +74,7 @@ section div.right:nth-child(1), section div.right:nth-child(2){
 
 footer{
     clear: both;
-    width: 100%;
+    width: 690px;
     margin: auto;
     border-top: 1px #F7F5F5 solid;   
     border-bottom: 1px #F7F5F5 solid;
@@ -87,7 +82,7 @@ footer{
 }
 
 footer>div{
-    width:185px;
+    width:180px;
     background-color: white;
     float: left;
     margin:20px;
