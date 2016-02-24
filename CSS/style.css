@@ -3,6 +3,8 @@ body{
     background-color:lightgray;
     width: 90%;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a:hover{
@@ -25,7 +27,7 @@ img{
 p{
     font-family: cursive;
     color:white;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -57,4 +59,40 @@ ul{
 a{
     color: #d6f5f5;
     text-decoration: none;
+}
+
+
+.tossing{
+	animation-name: tossing;
+	-webkit-animation-name: tossing;	
+
+	animation-duration: 2.5s;	
+	-webkit-animation-duration: 2.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes tossing {
+	0% {
+		transform: rotate(-4deg);	
+	}
+	50% {
+		transform: rotate(4deg);
+	}
+	100% {
+		transform: rotate(-4deg);	
+	}						
+}
+
+@-webkit-keyframes tossing {
+	0% {
+		-webkit-transform: rotate(-4deg);	
+	}
+	50% {
+		-webkit-transform: rotate(4deg);
+	}
+	100% {
+		-webkit-transform: rotate(-4deg);	
+	}				
 }
