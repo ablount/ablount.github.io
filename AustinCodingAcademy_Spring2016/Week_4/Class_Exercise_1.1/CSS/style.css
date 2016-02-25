@@ -1,0 +1,122 @@
+p, h1, div, a{
+    font-family: Verdana;
+    color: white;
+}
+
+.gardin{
+    background-image: url('../img/1.jpg');
+    background-size: cover;  
+    line-height: 3.2;
+    text-align: center;
+}
+
+.gardin div{
+    background-color: rgba(0,0,0,.5);
+    padding: 8%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p:first-child{
+    font-size: .5em;
+}
+
+p:nth-child(3){
+    font-size: .9em;
+}
+
+.greenbutton{
+    background-color: #91B200;
+    padding: .7%;
+    text-decoration: none;
+    font-size: .3em;
+}
+
+
+/*SERVICES HTML*/
+
+#services{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#uno{
+    background-image: url('../img/featured-image-3.jpg');
+    background-size: cover;
+}
+
+#uno div, #two div{
+    padding: 25% 10%;
+}
+
+#two{
+    background-image: url('../img/featured-image-4.jpg');
+    background-size: cover;
+    margin-top: 7%;
+}
+
+#tres{
+    background-image: url('../img/featured-image-5.jpg');
+    background-size: cover;
+    width: 68%;
+    float: left;
+    margin-left: 2%;
+}
+
+.opacity > div{
+    background-color: rgba(0,0,0,.5);
+    padding: 20.2% 5%;
+}
+
+
+.left{
+    float: left;
+    width: 30%;
+}
+
+main{
+    width: 100%;
+}
+
+#uno h1, #two h1, #tres h1{
+    font-size: 1.5em;
+}
+
+h2{
+    color: #91B200;
+    font-size: .8em;
+}
+
+div#tres p{
+    font-size: .5em;
+}
+
+div p, div h2{
+    padding: 1%;
+    line-height: 3;
+}
+
+.graybutton{
+    background-color: #3F3C34;
+    padding: 1.5%;
+    text-decoration: none;
+    font-size: .3em;
+}
+
+.clearbutton{
+    padding: 1.5%;
+    text-decoration: none;
+    font-size: .3em;
+    border: 1px solid white;
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
