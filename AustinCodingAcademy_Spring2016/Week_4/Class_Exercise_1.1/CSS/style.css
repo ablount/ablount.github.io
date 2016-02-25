@@ -6,13 +6,13 @@ p, h1, div, a{
 .gardin{
     background-image: url('../img/1.jpg');
     background-size: cover;  
-    line-height: 3.2;
+    line-height: ;
     text-align: center;
 }
 
 .gardin div{
     background-color: rgba(0,0,0,.5);
-    padding: 8%;
+    padding: 10%;
 }
 
 h1{
@@ -25,13 +25,14 @@ p:first-child{
 
 p:nth-child(3){
     font-size: .9em;
+    font-family: serif;
 }
 
 .greenbutton{
     background-color: #91B200;
-    padding: .7%;
+    padding: 1%;
     text-decoration: none;
-    font-size: .3em;
+    font-size: .1em;
 }
 
 
@@ -67,7 +68,7 @@ p:nth-child(3){
 
 .opacity > div{
     background-color: rgba(0,0,0,.5);
-    padding: 20.2% 5%;
+    padding: 22.2% 5%;
 }
 
 
