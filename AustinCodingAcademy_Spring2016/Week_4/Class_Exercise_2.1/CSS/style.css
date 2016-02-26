@@ -1,3 +1,24 @@
+h1{
+    font-family: 'BenchNine', sans-serif;
+    font-weight: bold;
+    color: turquoise;
+    font-size: 4em;
+}
+
+p{
+    font-family: 'BenchNine', sans-serif;
+    color: peachpuff;
+    font-size: 2em;
+}
+
+@font-face{
+    font-family: bapplejax;
+    src: url(../fonts/BELL.TTF);
+}
+
+p{
+    font-family: 'bapplejax';
+}
 .clearthatshit:after {
     clear: both;
     content: ".";
