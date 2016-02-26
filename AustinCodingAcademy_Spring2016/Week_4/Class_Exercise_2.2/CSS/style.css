@@ -5,6 +5,8 @@ body{
 nav{
     padding: 1%;
     width: 98%;
+    position: fixed;
+    background-color: white;
 }
 
 h1{
