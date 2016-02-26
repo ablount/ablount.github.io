@@ -60,6 +60,7 @@ p{
 body{
     background-image: url('../knagsmor.jpg');
     text-align: center;
+    background-size: cover;
 }
 
 main>h1{
