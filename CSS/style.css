@@ -19,7 +19,7 @@ h1{
     text-align: center;
     font-size: 3em;
     color: dimgray;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.15);
     width: 130%;
     margin-left: -15%;
     padding-top: 10px;
@@ -40,7 +40,7 @@ p{
 }
 
 div{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.15);
     text-align: left;
     margin-bottom: 50px;
     padding-left: 5%;
@@ -57,17 +57,13 @@ h3{
     font-weight: bold;
 }
 
-li{
-    color:white;
-}
-
 ul{
     padding: 5px;
     list-style: none;
 }
 
 a{
-    color: #d6f5f5;
+    color: white;
     text-decoration: none;
 }
 
