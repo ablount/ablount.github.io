@@ -8,7 +8,7 @@ nav{
 }
 
 h1{
-    font-size: 25px;
+    font-size: 1.5em;
     float:left;
 }
 
@@ -38,7 +38,7 @@ main > div{
 }
 
 main h2{
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 5%;
 }
 
@@ -47,43 +47,112 @@ main div p{
     font-size: .75em;
 }
 
-.two_boxes{
+
+/*ABOUT US SECTION*/
+
+#about_us{
     width: 100%;
     text-align: center;
 }
 
-.two_boxes div{
+#about_us div{
     float:left;
 }
 
-.two_boxes div:first-child{
+#about_us div:first-child{
     width: 55%;
     padding: 0 2.5%;
 }
 
-.two_boxes div:nth-child(2){
+#about_us div:nth-child(2){
     width:40%;
 }
 
-.two_boxes div img{
+#about_us div img{
     width: 70%;
 }
 
-.two_boxes div p:first-child{
+#about_us div p:first-child{
     color: darkgray;
     padding-top: 20%;
 }
 
-.two_boxes p:nth-child(3){
+#about_us p:nth-child(3){
     font-size: .8em;
 }
 
-.two_boxes h3{
+#about_us h3{
     font-family: serif;
     font-weight: bold;
     font-style: italic;
     font-size: 2em;
     padding: 5% 0;
+}
+
+
+/*TESTIMONIAL SECTION*/
+
+#testimonial{
+    background-image: url(../img/wine13.jpg);
+    background-size: cover;
+    text-align: center;
+    color:white;    
+}
+
+#testimonial > div{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 12% 2.5%;
+
+}
+
+#testimonial h3{
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    padding: 2% 0 3%;
+}
+
+#testimonial p{
+    font-size: .75em;
+}
+
+
+/*WINE SELECTION SECTION*/
+
+#wineselection{
+    text-align: center;
+}
+
+#wineselection > div{
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+}
+
+#wineselection div img{
+    width: 35%;
+}
+
+#wineselection h3{
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    padding: 0 0 5%;
+}
+
+#wineselection p{
+    margin-bottom: 2%;
+    font-size: .75em;
+}
+
+#wineselection a{
+    text-decoration: none;
+    color:white;
+    font-size: .75em;
+    background-color: #91A15F;
+    padding: 2% 5%;
 }
 
 .clearthatshit:after {
