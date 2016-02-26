@@ -1,4 +1,90 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
+nav{
+    padding: 1%;
+    width: 98%;
+}
+
+h1{
+    font-size: 25px;
+    float:left;
+}
+
+nav p{
+    margin-top: .5%;
+    display: inline-block;
+    float:right;
+}
+
+nav p a{
+    text-decoration: none;
+    margin-left:5px;
+    color:black;
+    font-size: .75em;
+}
+
+main{
+    background-image: url(../img/wine-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+
+main > div{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 15% 0;
+}
+
+main h2{
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+
+main div p{
+    font-style: italic;
+    font-size: .75em;
+}
+
+.two_boxes{
+    width: 100%;
+    text-align: center;
+}
+
+.two_boxes div{
+    float:left;
+}
+
+.two_boxes div:first-child{
+    width: 55%;
+    padding: 0 2.5%;
+}
+
+.two_boxes div:nth-child(2){
+    width:40%;
+}
+
+.two_boxes div img{
+    width: 70%;
+}
+
+.two_boxes div p:first-child{
+    color: darkgray;
+    padding-top: 20%;
+}
+
+.two_boxes p:nth-child(3){
+    font-size: .8em;
+}
+
+.two_boxes h3{
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    padding: 5% 0;
+}
 
 .clearthatshit:after {
     clear: both;
