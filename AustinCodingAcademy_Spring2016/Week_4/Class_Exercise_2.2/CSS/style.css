@@ -72,6 +72,7 @@ main div p{
 
 #about_us div img{
     width: 70%;
+    margin-bottom: -.75%;
 }
 
 #about_us div p:first-child{
