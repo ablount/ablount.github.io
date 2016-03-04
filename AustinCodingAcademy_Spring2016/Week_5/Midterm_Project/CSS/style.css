@@ -17,10 +17,10 @@ nav img{
 }
 
 nav p{
-    margin-left: 21.5%;
+    margin-left: 25%;
     margin-top: 1%;
     position: fixed;
-    width: 60%;
+    width: 50%;
 }
 
 nav p a{
@@ -28,9 +28,8 @@ nav p a{
     color: black;
     text-transform: uppercase;
     padding: 2%;
-    margin-left: 12.5px;
+    padding-left: 12.5px;
     background-color: white;
-    border-radius: 5px;
 }
 
 .hvr-trim {
