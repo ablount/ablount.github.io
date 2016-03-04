@@ -17,10 +17,11 @@ nav img{
 }
 
 nav p{
-    margin-left: 25%;
-    margin-top: 1%;
+    margin-left: 50%;
+    margin-top: 1.5%;
     position: fixed;
     width: 50%;
+    background-color: white;
 }
 
 nav p a{
@@ -29,7 +30,6 @@ nav p a{
     text-transform: uppercase;
     padding: 2%;
     padding-left: 12.5px;
-    background-color: white;
 }
 
 .hvr-trim {
@@ -43,6 +43,7 @@ nav p a{
   -moz-osx-font-smoothing: grayscale;
   position: relative;
 }
+
 .hvr-trim:before {
   content: '';
   position: absolute;
@@ -91,10 +92,16 @@ main p{
 
 main a{
     background-color: #FFae69;
-    padding: 1% 2%;
+    padding: 2% 4%;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.5em;
     color: white;
+}
+
+main a:hover{
+    -webkit-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+    -moz-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+    box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
 }
 
 /* SECTION2 STYLEZ */
@@ -222,6 +229,12 @@ main a{
     text-decoration: none;
     font-size: 1.5em;
     color: white;
+}
+
+#section5 div a:hover{
+    -webkit-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+    -moz-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+    box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
 }
 
 #section5 div a:first-child{
