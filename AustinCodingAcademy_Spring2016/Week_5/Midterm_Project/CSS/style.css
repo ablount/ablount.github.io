@@ -104,6 +104,10 @@ main a{
     padding-top: 5%;
 }
 
+#section2 h3{
+    font-size: 1.5em;
+}
+
 #section2 div img{
     width: 90%;
 }
