@@ -1,0 +1,89 @@
+body{
+    background-image: url('../img/giphy.gif');
+    background-size: cover;
+    font-family: 'Verdana', sans-serif;
+    padding: 10px;
+}
+
+header{
+    background-color: rgba(255, 255, 255, .9);
+    padding:10px;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+header h1{
+    float: left;
+    font-size: 1.5em;
+} 
+
+header p{
+    float: right;
+    padding-top: 5px;
+}
+
+header p a{
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+main h2{
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 15px;
+    font-size: 1.25em;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#left, #right{
+    float:left;
+    width: 46%;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 1%;
+    margin-left: 1%;
+}
+
+main h3{
+    font-size: em;
+    margin: 5px 0;
+}
+
+main p{
+    font-size: .75em;
+    margin: 5px 0;
+}
+
+main li{
+    list-style-type: none;
+}
+
+#intro, #education{
+    margin-bottom: 20px;
+}
+
+p {
+    float: right;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+    font-size: .75em;
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
