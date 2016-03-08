@@ -1,6 +1,7 @@
 body{
     background-image: url('../img/9.jpg');
     background-size: cover;
+    background-repeat: none;
     font-family: "Fauna One", sans-serif;
 }
 
