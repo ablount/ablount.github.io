@@ -116,7 +116,7 @@ footer{
     font-size: .75em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     #left,#right{
         float: none;
         width: 100%;
