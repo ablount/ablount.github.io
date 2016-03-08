@@ -116,6 +116,25 @@ footer{
     font-size: .75em;
 }
 
+@media (max-width: 600px) {
+    #left,#right{
+        float: none;
+        width: 100%;
+    }
+    
+    #right{
+        margin-left: 0;
+    }
+    
+    #left{
+        margin-bottom: 15px;
+    }
+    
+    #intro{
+        width: 95%;
+    }
+}
+
 .clearthatshit:after {
     clear: both;
     content: ".";
