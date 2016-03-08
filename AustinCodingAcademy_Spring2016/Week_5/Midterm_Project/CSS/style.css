@@ -8,12 +8,14 @@ body{
 /* NAV STYLEZ */
 
 nav{
-    padding: 1%;
+    height: 75px;
     background-color: white;
 }
 
 nav img{
     float: left;
+    height: 70px;
+    padding-top: 2.5px;
 }
 
 nav p{
@@ -339,6 +341,73 @@ main a:hover{
     margin-left: 2.5%;
 }
 
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 750px){
+    
+    /* NAV */
+
+    nav{
+        background-color: white;
+        height: 45px;
+    }
+
+    nav img{
+        float: left;
+        height: 40px;
+        padding-top: 2.5px;
+    }
+
+    nav p a{
+        font-size: .5em;
+        padding: 1%;
+        padding-left: 5px;
+    }
+
+
+    /*  SECTION 2  */
+    #section2 div{
+        float: none;
+        padding: 5%;
+        margin: 0 auto;
+    }
+
+    #section2 div:first-child{
+        width: 50%;
+    }
+    /* SECTION3 STYLEZ */
+
+    #section3> div> div> h4, #section3>div>div>p {
+        color: black;
+    }
+    
+    #section3 div div{
+        width: 90%;
+        margin-left: 4%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #section3 div div img{
+        width: 80%;
+    }
+
+    /*    SECTION4*/
+
+    #section4{
+        margin-left: 5%;
+    }
+
+    #section4 div{
+        width: 90%;
+    }
+
+    /*   SECTION5 */
+    #section5{
+        clear: both;
+    }
+}
 .clearthatshit:after {
     clear: both;
     content: ".";
