@@ -125,6 +125,15 @@ footer{
 }
 
 @media (max-width: 1000px) {
+    
+    header h1{
+        font-size:10em;
+    }
+    
+    #intro{
+        width: 95%;
+    }
+    
     #left,#right{
         float: none;
         width: 100%;
@@ -138,9 +147,11 @@ footer{
         margin-bottom: 15px;
     }
     
-    #intro{
-        width: 95%;
+    h2{
+        font-size:4.5em;
     }
+    
+    
 }
 
 .clearthatshit:after {
