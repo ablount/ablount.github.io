@@ -347,7 +347,6 @@ main a:hover{
 @media (max-width: 1000px){
     
     /* NAV */
-
     nav{
         background-color: white;
         height: 45px;
@@ -376,8 +375,8 @@ main a:hover{
     #section2 div:first-child{
         width: 50%;
     }
+    
     /* SECTION3 STYLEZ */
-
     #section3> div> div> h4, #section3>div>div>p {
         color: black;
     }
@@ -394,7 +393,6 @@ main a:hover{
     }
 
     /*    SECTION4*/
-
     #section4{
         margin-left: 5%;
     }
