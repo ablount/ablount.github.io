@@ -1,0 +1,69 @@
+main{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+main div{
+    width: 30%;
+    color: white;
+    padding: 10% 5%;
+}
+
+main h1{
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5% 0;
+}
+
+main p{
+    font-size: .75em;
+    font-family: sans-serif;
+}
+
+#bottom{
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+#left, #right{
+    float: left;
+    width: 40%;
+    padding: 3%;
+    margin-left: 3%;
+}
+
+
+#bottom h2{
+    padding-bottom: 3%;
+}
+#bottom p{
+    color:#8e8e8e;
+    font-size: .75em;
+}
+
+@media screen and (max-width:640px){
+    
+    main{
+        background-image: url(../img/bg2.jpg);
+    }
+    
+    main div{
+        width: 60%;
+    }
+    
+    #left, #right{
+        width: 94%;
+        padding: 3%;
+        float: none;
+        margin-left: 0;
+    }
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}

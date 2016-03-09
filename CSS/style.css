@@ -3,7 +3,7 @@ body{
     background-color:lightgray;
     width: 80%;
     margin: auto;
-    background-image: url('../giphy.gif');
+    background-image: url('../img/giphy.gif');
     background-size: cover;
     font-family: 'BenchNine';
     margin-bottom: 5%;
