@@ -1,0 +1,44 @@
+.my_header{
+    background-color:darkseagreen;
+    color: lavender;
+}
+
+.my_nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkslategray;
+}
+
+.my_nav p{
+    margin: 20px;
+}
+
+.my_nav p a{
+    color: darkgrey;
+}
+
+img{
+    width: 100%;
+}
+
+.my_container{
+    background-color: azure;
+}
+
+.my_container > div{
+    background-color: aliceblue;
+}
+
+.fuck_padding{
+    padding-left: 0;
+}
+
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}

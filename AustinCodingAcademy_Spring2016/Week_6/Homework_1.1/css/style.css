@@ -57,7 +57,7 @@ div p{
 .clearthatshit:after {
     clear: both;
     content: ".";
-    display: block;
+    display: blockb;
     height: 0;
     line-height: 0;
     visibility: hidden;

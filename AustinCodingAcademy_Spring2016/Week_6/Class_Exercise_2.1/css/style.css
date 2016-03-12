@@ -1,71 +1,13 @@
-body{
+.row > div{
+    background-color: aquamarine;
     color: white;
 }
 
-main{
-    text-align: center;
-    background-color: turquoise;
-    font-size: 3em;
+.row{
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-main h1{
-    padding: 12% 10%;
-}
-
-span{
-    font-weight: bold;
-}
-
-section{
-    background-color: black;
-    text-align: center;
-}
-
-section div{
-    float: left;
-    width: 15%;
-    margin: 5% 0% 5% 14%;
-    
-}
-
-section div h2{
-    font-size: 2em;
-    padding:5% 0;
-}
-
-#one{
-    border-top: 25px #33A8DD solid;
-}
-
-#two{
-    border-top: 25px #F36830 solid;
-}
-
-#three{
-    border-top: 25px turquoise solid; 
-}
-
-
-
-@media screen and (max-width: 1000px){
-    main{
-        background-color: #33A8DD;
-        text-align: left;
-    }
-
-    section{
-        background-color: #F7F5F6;
-        color: black;
-    }
-
-    section div{
-        width: 35%;
-        margin: 5% 0% 5% 32.5%;
-
-    }
-}
-
-
 
 .clearthatshit:after {
     clear: both;
