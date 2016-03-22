@@ -63,12 +63,11 @@ main{
     color:black;
 }
 
-
 footer{
     text-align: center;
     margin-top: 20px;
     border-top: black 1px solid;
-    padding: 5px -15px 0 -15px;
+    padding-top: 10px;
 }
 
 .clearthatshit:after {
