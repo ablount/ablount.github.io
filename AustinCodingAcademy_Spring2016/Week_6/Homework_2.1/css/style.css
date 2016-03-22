@@ -32,6 +32,10 @@ header p a{
     margin-left: 10px;
 }
 
+header p a:hover{
+    color:black;
+}
+
 header p{
     margin-top: 15px;
     margin-right: 10px;
