@@ -1,36 +1,46 @@
 /* BRIGHT TURQ */
 
-.menu li a, .header{
-    background-color: #2AADB2;
+.timer, .counter-item i, .address p i, .footer p a, .text-box p span a, .title h2, .desc p a{
+    color: #2AADB2;
 }
 
+.btneff, .btn-sub{
+	background-color:#2AADB2;
+}
+
+h2.portfolio-text::after{
+    background: #2AADB2 none repeat scroll 0% 0%;
+}
+
+.work-list a h3, .features{
+    background: #2AADB2;
+}
 
 /* LIGHT TURQ */
 
-{
-    background-color: #E3FEFF;
-    color: #777;
+.logo{
+    color: #E3FEFF;
+}
+
+.text-box h2{
+	border-bottom: 7px double #E3FEFF;
+	border-top: 7px double #E3FEFF;
 }
 
 
 /* BROWN */
 
-{
-    color: #B25F28;
+.image-hover:hover i, .form-effect, input[placeholder], [placeholder], *[placeholder]{
+    color:#B25F28;
 }
 
-/* ORANGE */
-
-#FFA86F;
+.nav li a:focus, .header, .menu li a, .menu li a:hover{
+    background-color: #B25F28;
 }
 
 
-/* FLESH */
+/*OTHER STUFF*/
 
-.logo{
-    color: #FFCBAA;
-} 
-
-.menu li a:hover{
-    background-color:#FFCBAA;
+.backg {
+    background-image: url(/AustinCodingAcademy_Spring2016/Week_7/Homework_1.2/My_Custom_Ravalic/images/mojave-national-preserve-landscape-bw-1.jpg);
 }
