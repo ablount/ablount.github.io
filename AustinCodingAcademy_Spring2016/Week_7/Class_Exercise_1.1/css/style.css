@@ -1,0 +1,16 @@
+#my_nav{
+    background-color: rgba(51, 51, 51, .25);
+}
+
+body{
+    background-color: darkseagreen;
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
