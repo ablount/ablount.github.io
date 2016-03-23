@@ -1,0 +1,36 @@
+/* BRIGHT TURQ */
+
+.menu li a, .header{
+    background-color: #2AADB2;
+}
+
+
+/* LIGHT TURQ */
+
+{
+    background-color: #E3FEFF;
+    color: #777;
+}
+
+
+/* BROWN */
+
+{
+    color: #B25F28;
+}
+
+/* ORANGE */
+
+#FFA86F;
+}
+
+
+/* FLESH */
+
+.logo{
+    color: #FFCBAA;
+} 
+
+.menu li a:hover{
+    background-color:#FFCBAA;
+}
