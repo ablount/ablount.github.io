@@ -25,6 +25,7 @@ h2.portfolio-text::after{
 .text-box h2{
 	border-bottom: 7px double #E3FEFF;
 	border-top: 7px double #E3FEFF;
+    font-size: 2.25em;
 }
 
 
