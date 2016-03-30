@@ -1,0 +1,25 @@
+.my_container{
+    height: 1000px;
+    background-color: cornflowerblue;
+}
+
+h2{
+    margin-top: 300px;
+}
+
+#myJello{
+    width: 50%;
+}
+
+.secondContainer{
+    background-color: darkslategray;
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
