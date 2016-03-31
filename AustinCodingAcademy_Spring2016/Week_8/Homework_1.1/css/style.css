@@ -1,0 +1,44 @@
+.gray_background{
+    background-color: lightgray;
+}
+
+.yellow_background{
+    background-color: yellow;
+}
+
+.mediumgray_background{
+    background-color: darkgray;
+}
+
+.top_padding{
+    padding-top: 150px;
+}
+
+.bottom_padding{
+    padding-bottom: 150px;
+}
+
+.top_padding2{
+    padding-top: 60px;
+}
+
+.bottom_padding2{
+    padding-bottom: 60px;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.hide_me{
+    visibility: hidden;
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
