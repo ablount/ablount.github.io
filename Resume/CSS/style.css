@@ -22,13 +22,6 @@ header h1{
     color: white;
 }
 
-header h1:hover{
-    -webkit-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
-    -moz-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
-    box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
-    border-radius: 10px;
-}
-
 header p{
     padding-top: 5px;
     color: white;
@@ -152,6 +145,16 @@ footer{
     }
     
     
+}
+
+@media (min-width: 782px) {
+    
+    header h1:hover{
+        -webkit-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+        -moz-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+        box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+        border-radius: 10px;
+    }
 }
 
 .clearthatshit:after {
