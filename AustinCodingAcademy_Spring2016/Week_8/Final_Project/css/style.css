@@ -1,0 +1,167 @@
+body{
+    background-image: url('../img/9.jpg');
+    background-size: cover;
+    background-repeat: none;
+    font-family: "Fauna One", sans-serif;
+}
+
+header{
+    padding:15px 10px;
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1{
+    font-size: 5em;
+    font-weight: bold;
+    display: inline;
+    padding: 1% 2% 4% 2%;
+    font-family: "Wire One";
+    color: white;
+}
+
+header p{
+    padding-top: 5px;
+    color: white;
+}
+
+header p a{
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+main img{
+    border-bottom: 2px lightgray solid;
+}
+
+main img:nth-child(2){
+    border: none;
+}
+
+main h2{
+    border-bottom: 2px solid lightgray;
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-family: "Wire One";
+    font-weight: bold;
+}
+
+main{
+    width: 90%;
+    background-color: rgba(255, 255, 255, .85);
+    padding: 5%;
+}
+
+#intro{
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#left, #right{
+    float: left;
+    width: 48%;
+}
+
+#right{
+    margin-left: 2%;
+}
+
+#right h3{
+    font-weight: bold;
+}
+
+main h3{
+    font-size: .9em;
+    margin: 20px 0 5px 0;
+}
+
+main p{
+    font-size: .75em;
+    margin: 5px 0;
+}
+
+main li{
+    list-style-type: square;
+    margin-left: 40px;
+    font-size: .8em;
+}
+
+#intro, #education{
+    margin-bottom: 20px;
+}
+
+main section section p {
+    padding-left: 10px;
+}
+
+main section section ul{
+    margin-top: 10px;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    margin: 30px 0;
+    font-size: .75em;
+}
+
+@media (max-width: 1000px) {
+    
+    header h1{
+        font-size:8em;
+    }
+    
+    #intro{
+        width: 95%;
+    }
+    
+    #left,#right{
+        float: none;
+        width: 100%;
+    }
+    
+    #right{
+        margin-left: 0;
+    }
+    
+    #left{
+        margin-bottom: 15px;
+    }
+    
+    h2{
+        font-size:10em;
+    }
+    
+    
+}
+
+@media (min-width: 782px) {
+    
+    header h1:hover{
+        -webkit-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+        -moz-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+        box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
+        border-radius: 10px;
+    }
+}
+
+.clearthatshit:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
