@@ -14,7 +14,6 @@
 
 
 #landing_page #top_section{
-    height: 500px;
     margin-top: 150px;
 }
 
@@ -198,13 +197,12 @@
     
 }
 
-@media screen and (max-width: 949px){
+@media screen and (max-width: 991px){
     #my_name{
         font-size: .5em;
     }
     
     #landing_page #top_section{
-        height: 300px;
         margin-top: 125px;
     }
     
