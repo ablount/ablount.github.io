@@ -1,38 +1,71 @@
-.navbar{
+#landing_page .navbar{
     background: rgba(266, 266, 266, .8);
     border-radius: 0;
 }
 
-
 #landing_page{
     font-family: 'Fauna One';
+    background-color: #e6e6e6;
 }
-.divider {
+
+#landing_page .divider {
     height:50px;
 }
 
-section {
+#landing_page section {
     height:200px;
     padding-top:50px;
     padding-bottom:50px;
     overflow:auto;
 }
 
-#top_section{
+#landing_page #top_section{
     height: 600px;
     margin-top: 125px;
 }
 
-#top_section img{
+#landing_page #top_section img{
     width: 50%;
 }
 
-#top_section h1, #about_me h1, .portfolio h1, #contact h1{
+#landing_page #face img{
+    width: 65%;
+    margin-top: -50px;
+}
+
+
+#landing_page #top_section h1, #about_me h1, #portfolio h1, #contact h1{
     font-family: 'Wire One';
     text-transform: uppercase;
     font-size: 4em;
     font-weight: bold;
 }
+
+#about_me h1, #portfolio h1, #contact h1{
+    background-color: rgba(0,0,0,.5);
+}
+
+#landing_page .big{
+
+    font-weight: bolder;
+}
+
+#landing_page .panel-body{
+    padding: 0;
+}
+
+#landing_page .panel-body img{
+    width: 100%;
+}
+
+#landing_page .panel-footer{
+    color: dimgray;
+}
+
+#landing_page a:hover{
+    text-decoration: none;
+}
+
 
 /*PARALLAX*/
 .bg-1 {
@@ -53,7 +86,7 @@ section {
     background-size:cover;
 }
 
-#footer {
+#landing_page  #footer {
     height: 60px;
     background-color:#585858;
     margin-top:50px;
@@ -61,13 +94,13 @@ section {
     padding-bottom:20px;
 }
 
-#footer a {
+#landing_page #footer a {
   color:#efefef;
 }
 
 /* END PARALLAX */
 
-#resume body{
+#resume{
     background-image: url('../img/9.jpg');
     background-size: cover;
     background-repeat: none;
@@ -75,12 +108,12 @@ section {
     height: 1200px;
 }
 
-header{
+#resume header{
     margin-bottom: 75px;
     margin-top: 75px;
 }
 
-header h1{
+#resume header h1{
     font-size: 7em;
     font-weight: bold;
     display: inline;
@@ -89,47 +122,51 @@ header h1{
     color: white;
 }
 
-header p{
+#resume header p{
     color: white;
 }
 
 
-main h2{
+#resume main h2{
     border-bottom: 2px solid lightgray;
     font-size: 2em;
     font-family: "Wire One";
     font-weight: bold;
 }
 
-main{
+#resume main{
     background-color: rgba(255, 255, 255, .85);
     padding: 5%;
 }
 
 
-#right h3{
+#resume #right h3{
     font-weight: bold;
 }
 
-main h3{
-    font-size: .9em;
+#resume main h3{
+    font-size: 1em;
 }
 
-main p{
-    font-size: .75em;
+#resume main p{
+    font-size: .8em;
 }
 
-main li{
+#resume #left p{
+    margin-left: 25px;
+}
+
+#resume main li{
     list-style-type: square;
     margin-left: 40px;
     font-size: .8em;
 }
 
-span{
+#resume span{
     font-weight: bold;
 }
 
-footer{
+#resume footer{
     padding: 2.5%;
 }
 
@@ -137,17 +174,17 @@ footer{
     display: none;
 }
 
-#down_arrow h2{
+#resume #down_arrow h2{
     border: none;
 }
 
 @media (max-width: 1000px) {
     
-    header h1{
+    #resume header h1{
         font-size:4em;
     }
 
-    h2{
+    #resume h2{
         font-size:10em;
     }
     
@@ -155,7 +192,7 @@ footer{
 
 @media (min-width: 782px) {
     
-    header h1:hover{
+    #resume header h1:hover{
         -webkit-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
         -moz-box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
         box-shadow: 0px 9px 107px -1px rgba(255,255,255,0.95);
