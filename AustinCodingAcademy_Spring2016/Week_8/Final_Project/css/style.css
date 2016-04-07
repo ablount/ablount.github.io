@@ -1,4 +1,73 @@
-body{
+.navbar{
+    background: rgba(266, 266, 266, .8);
+    border-radius: 0;
+}
+
+
+#landing_page{
+    font-family: 'Fauna One';
+}
+.divider {
+    height:50px;
+}
+
+section {
+    height:200px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+#top_section{
+    height: 600px;
+    margin-top: 125px;
+}
+
+#top_section img{
+    width: 50%;
+}
+
+#top_section h1, #about_me h1, .portfolio h1, #contact h1{
+    font-family: 'Wire One';
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+/*PARALLAX*/
+.bg-1 {
+	background: url('../img/blue_pattern.png') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+	background: url('../img/green_pattern.png') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+	background: url('../img/orange_pattern.png') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+/* END PARALLAX */
+
+#resume body{
     background-image: url('../img/9.jpg');
     background-size: cover;
     background-repeat: none;
