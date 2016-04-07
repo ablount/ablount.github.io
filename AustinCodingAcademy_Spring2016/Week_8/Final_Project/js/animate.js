@@ -6,8 +6,8 @@
 
             if (verticalScroll >= 25) {
 
-                $('#portfolio').addClass('animated fadeInLeftBig');
-                $('#portfolio').removeClass('hide_me');
+                $('#resume #portfolio').addClass('animated fadeInLeftBig');
+                $('#resume #portfolio').removeClass('hide_me');
                 $('#education').addClass('animated fadeInRightBig');
                 $('#education').removeClass('hide_me');
             }

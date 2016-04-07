@@ -1,11 +1,11 @@
 #landing_page .navbar{
-    background: rgba(266, 266, 266, .8);
+    background: rgba(266, 266, 266, .9);
     border-radius: 0;
 }
 
 #landing_page{
     font-family: 'Fauna One';
-    background-color: #e6e6e6;
+    background-color: white;
 }
 
 #landing_page .divider {
@@ -20,8 +20,8 @@
 }
 
 #landing_page #top_section{
-    height: 600px;
-    margin-top: 125px;
+    height: 690px;
+    margin-top: 100px;
 }
 
 #landing_page #top_section img{
@@ -29,15 +29,18 @@
 }
 
 #landing_page #face img{
-    width: 65%;
+    width: 70%;
     margin-top: -50px;
 }
 
+#my_name{
+    font-size: 1.5em;
+}
 
 #landing_page #top_section h1, #about_me h1, #portfolio h1, #contact h1{
     font-family: 'Wire One';
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: bold;
 }
 
