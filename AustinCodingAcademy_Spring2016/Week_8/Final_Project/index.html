@@ -14,6 +14,7 @@
 
     <!-- Animate Stylesheet -->
     <link rel="stylesheet" href="css/animate.css" type="text/css">
+    
 
     <!-- My Custom Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
@@ -26,26 +27,27 @@
 
 <body id="landing_page" class="container-fluid">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
+            <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Welcome!</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Welcome!</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about_me">About Me</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+                    <li><a class="page-scroll" href="#about_me_nav">About Me</a></li>
+                    <li><a class="page-scroll" href="#portfolio_nav">Portfolio</a></li>
+                    <li><a class="page-scroll" href="#contact_nav">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -79,6 +81,7 @@
         <div id="my_name" class="col-xs-8 col-xs-offset-2">
             <h1>Allison Rozanne Blount</h1></div>
     </section>
+    <div id="about_me_nav"></div>
     <br>
     <br>
 
@@ -103,6 +106,7 @@
         <!--/row-->
         <hr class="">
     </div>
+        <div id="portfolio_nav"></div>
     <br>
     <br>
 
@@ -151,6 +155,8 @@
             </div>
         </div>
     </div>
+    
+        <div id="contact_nav"></div>
     <br>
     <br>
 
@@ -190,9 +196,13 @@
             </p>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    
     <script src="js/bootstrap.js"></script>
     <script src="js/animate.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/npm.js"></script>
+    
 
 </body>
 
