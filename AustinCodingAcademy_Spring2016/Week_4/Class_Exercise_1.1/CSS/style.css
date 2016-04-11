@@ -113,6 +113,19 @@ div p, div h2{
     border: 1px solid white;
 }
 
+@media screen and (max-width: 1000px){
+    
+    .left, #tres{
+        display: inline;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    #tres{
+        margin-top: 7%;
+    }
+}
+
 .clearthatshit:after {
     clear: both;
     content: ".";
